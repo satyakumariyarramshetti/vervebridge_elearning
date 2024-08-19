@@ -1,0 +1,76 @@
+.about {
+  /*padding: 40px;*/
+  margin:0;
+  padding:0;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: 'Arial, sans-serif';
+  text-align: center;
+}
+
+.about-header {
+  margin-bottom: 20px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+.about-content {
+  margin: 20px 0;
+}
+
+.about-content h3 {
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.offerings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.offer-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.offer-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.offer-card h4 {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.about-footer {
+  margin-top: 30px;
+  background-color: rgba(128, 128, 128, 0.774);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cta-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: goldenrod;
+  color:black;
+}
